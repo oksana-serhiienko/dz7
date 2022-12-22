@@ -1,0 +1,29 @@
+.text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.buttons {
+    display: flex;
+    
+    button {
+        height: 36px;
+        margin-left: 2%;
+        background-color: rgb(255, 4, 171);
+        border-color: rgb(255, 4, 171); ;
+        color: #fff;
+        cursor: pointer;
+        width: 26%;
+        min-width: 60px;
+
+        &:hover {
+            opacity: .5;
+        }
+
+        svg {
+            height: 25px!important;
+        }
+    }
+}
+
